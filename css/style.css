@@ -1,0 +1,515 @@
+body{
+    color: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:white;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: white;    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);     
+    z-index: 1000;
+} 
+header h2 a{
+    text-decoration: none;
+    display: flex;
+}
+nav ul{
+    display: flex; 
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px ;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+section.form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-image:url('/images/images.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+form{
+    position: relative;
+    top: 100px;
+    width: 500px;
+    height: 350px;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(43, 92, 226);
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: green;
+}
+.text{
+    position: relative;
+    top: 100px;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+}
+.text h1{
+    color: rgb(36, 36, 192);
+    text-align: center;
+}
+
+.text p{
+    text-align: center;
+    font-size: large;
+}
+
+section.service h1{
+    text-align: center;
+    color:rgb(49, 49, 187);
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+}
+.parent_card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 5px;
+    padding: 10px;
+}
+
+.card_one{
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-image: url('/images/istockphoto-1308235771-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.8s;
+}
+.card_one:hover{
+    width: 700px;
+    height: 700px;
+}
+
+.family{
+    position: relative;
+    top: 100px;
+}
+.family h3{
+    padding: 10px;
+    margin: 10px;
+    color: rgb(43, 92, 226);
+    font-size: 50px;
+}
+
+.family p{
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.family button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(43, 92, 226);
+    color: white;
+    font-size: large;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+.family button:hover{
+    background-color: rgba(32, 221, 32, 0.753);
+}
+
+.card_two{
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-image: url('/images/Münster\,_LVM\,_Bürogebäude_--_2013_--_5149-51.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.8s;
+}
+.card_two:hover{
+    width: 700px;
+    height: 700px;
+}
+
+.family_two{
+    position: relative;
+    top: 100px;
+}
+.family_two h3{
+    padding: 10px;
+    margin: 10px;
+    color: rgb(43, 92, 226);
+    font-size: 50px;
+}
+
+.family_two p{
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.family_two button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(43, 92, 226);
+    color: white;
+    font-size: large;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+.family_two button:hover{
+    background-color: rgba(32, 221, 32, 0.753);
+}
+
+.card_three{
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-image: url('/images/marketing-to-attract-grocery-stores_resize_b45a1fb8f9f0ff146ef27e828cb662f6.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.8s;
+}
+.card_three:hover{
+    width: 700px;
+    height: 700px;
+}
+
+.family_three{
+    position: relative;
+    top: 100px;
+}
+.family_three h3{
+    padding: 10px;
+    margin: 10px;
+    color: rgb(43, 92, 226);
+    font-size: 50px;
+}
+
+.family_three p{
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.family_three button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(43, 92, 226);
+    color: white;
+    font-size: large;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+.family_three button:hover{
+    background-color: rgba(32, 221, 32, 0.753);
+}
+.card_four{
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-image: url('/images/hospitales_inteligentes_pic01_20231102_tedisel_medical.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.8s;
+}
+.card_four:hover{
+    width: 700px;
+    height: 700px;
+}
+
+.family_four{
+    position: relative;
+    top: 100px;
+}
+.family_four h3{
+    padding: 10px;
+    margin: 10px;
+    color: rgb(43, 92, 226);
+    font-size: 50px;
+}
+
+.family_four p{
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.family_four button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(43, 92, 226);
+    color: white;
+    font-size: large;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+.family_four button:hover{
+    background-color: rgba(32, 221, 32, 0.753);
+}
+.service {
+    opacity: 0; 
+    transform: translateY(20px); 
+    animation: fadeIn 1.5s ease-out forwards; 
+    }
+    
+    @keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }
+.products h1{
+    text-align: center;
+    color:rgb(43, 92, 226);
+    text-transform: uppercase;
+    opacity: 0; 
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.card_products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    gap: 10px;
+    padding: 20px;  
+    margin: 20px;
+    color: black;
+    animation: slideIn 1.5s ease-out forwards;  
+    animation-delay: 0.5s;
+}
+.card_products div {
+    transform: translateY(50px); 
+    opacity: 0;  
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: calc(var(--i) * 0.2s); 
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column; 
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .parent_card {
+        grid-template-columns: 1fr;  
+        }
+    
+        .card_products {
+        grid-template-columns: 1fr;   
+        }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .parent_card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .card_products {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    
+    .family h3 {
+        font-size: 24px;
+    }
+    
+    .family p {
+        font-size: small;
+    }
+    }
+    @media (max-width: 768px) {
+        section.form {
+            flex-direction: column;   
+            align-items: center; 
+            height: auto;  
+        }
+    
+        form, .text {
+            width: 90%; 
+        }
+    
+        .text h1 {
+            font-size: 24px; 
+        }
+    
+        .text p {
+            font-size: 18px; 
+        }
+    }
+    
+    
+    @media (max-width: 1024px) {
+        form, .text {
+            width: 70%;
+        }
+    }
+    
+    footer {
+        background-color: #1e1e1e;
+        color: white;
+        padding: 40px 0;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    
+    .footer-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .footer-section {
+        width: 30%;
+    }
+    
+    .footer-section h3 {
+        color: #43a2f1;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    
+    .footer-section p, .footer-section ul {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+    
+    .footer-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .footer-section ul li {
+        margin-bottom: 10px;
+    }
+    
+    .footer-section ul li i.fa-facebook{
+        color: #43a2f1;
+        font-size: 20px;
+    }
+
+    .footer-section ul li i.fa-twitter{
+        color: #43a2f1;
+        font-size: 20px;
+    }
+    .footer-section ul li i.fa-linkedin{
+        color: #43a2f1;
+        font-size: 20px;
+    }
+    .footer-section ul li i.fa-instagram{
+        color: #43a2f1;
+        font-size: 20px;
+    }
+
+    
+    .footer-section ul li i{
+        transition: 0.5s;
+    }
+    
+    .footer-section ul li i:hover{
+        color: white;
+    }
+
+    .footer-section a {
+        color: #43a2f1;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .footer-section a:hover {
+        color: #ffffff;
+    }
+    
+    .social-links {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .social-links a {
+        font-size: 1.2rem;
+    }
+    
+    .footer-bottom {
+        margin-top: 20px;
+        border-top: 1px solid #333;
+        padding-top: 10px;
+    }
+    
+    @media (max-width: 768px) {
+        .footer-section {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    
